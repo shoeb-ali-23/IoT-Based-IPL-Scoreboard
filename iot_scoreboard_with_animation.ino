@@ -113,7 +113,7 @@ JsonDocument doc;
 void setup() 
 {
   Serial.begin(9600);
-  WiFi.begin("SHOEB_ALI_06", "22446688");
+  WiFi.begin("SSID", "PASSWORD");
   while(WiFi.status() != WL_CONNECTED)
   {
     Serial.println(".");
